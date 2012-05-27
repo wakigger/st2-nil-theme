@@ -16,9 +16,9 @@
 		"layer0.opacity": 1.0,
 		"content_margin": [-13, 0, -13, -6], // left, top, right, bottom
 		"tab_overlap": 25,
-		"tab_width": 180,
+		"tab_width": 140,
 		"tab_min_width": 40,
-		"tab_height": 32,
+		"tab_height": 30,
 		"mouse_wheel_switch": false
 	},
 	{
@@ -88,6 +88,7 @@
 		"class": "tab_label",
 		"fg": [180, 180, 180],
 		"shadow_color": [0, 0, 0, 200],
+		"font.size": 12,
 		"shadow_offset": [0, 1]
 	},
 
@@ -95,7 +96,7 @@
 	{	
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
-		"shadow_color": [0, 0, 0, 165],
+		"shadow_color": [0, 0, 0, 80],
 		"shadow_offset": [0, 1],
 		"fg": [240, 240, 240, 255]
 	},
@@ -456,6 +457,7 @@
 	//	- Sidebar heading
 	{
 		"class": "sidebar_heading",
+		"font.size": 13,
 		"color": [180, 180, 180],
 		"font.bold": true,
 		"shadow_color": [0, 0, 0],
@@ -469,6 +471,7 @@
 	//	- Sidebar entry label
 	{
 		"class": "sidebar_label",
+		"font.size": 12,
 		"color": [180, 180, 180],
 		"shadow_color": [0, 0, 0],
 		"shadow_offset": [0, 1]
